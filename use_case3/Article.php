@@ -20,16 +20,3 @@ If this is the case, the title is prepended with "BREAKING: ".
 Extra bonus: display all the content with the appropriate html tags.
 */
 
-class Content
-{
-    private string $title;
-    private string $text;
-
-    public function __construct(string $title, string $text)
-    {
-        $this->title = $title;
-        $this->text = $text;
-    }
-
-    public function getTitle(): string
-}
