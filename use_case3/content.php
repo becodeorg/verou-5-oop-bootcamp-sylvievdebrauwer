@@ -1,8 +1,8 @@
 <?php
 class Content
 {
-    private string $title;
-    private string $text;
+    protected string $title;
+    protected string $text;
 
     public function __construct(string $title, string $text)
     {
@@ -10,7 +10,7 @@ class Content
         $this->text = $text;
     }
 
-    public function getTitle()
+    public function showTitle()
     {
         return $this->title;
     }
