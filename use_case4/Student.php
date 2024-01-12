@@ -2,9 +2,24 @@
 
 declare(strict_types=1);
 
-class Student 
+class Student
 {
-    // private properties name and grade
-    // create constructor to initialize name and grade
-    // create methods to get name and grade
+    private string $name;
+    private int $grade;
+
+    public function __construct(string $name, int $grade)
+    {
+        $this->name = $name;
+        $this->grade = $grade;
+    }
+
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    public function getGrade()
+    {
+        return $this->grade;
+    }
 }

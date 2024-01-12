@@ -35,3 +35,30 @@ echo "total Price: €" . number_format($totalPrice, 2);
 echo "<br>";
 echo "Total Tax: €" . number_format($totalTax, 2);
 
+*/
+/*
+Basils code // FIRST, calculate total price!
+<?php
+declare strict types
+
+ini_set(...)
+ini_set(...)
+error_reporting(...)
+
+$totalPrice = 0;
+$totalTax = 0;
+
+
+$products = [
+    ["name" => "Banana", "amount" => 6, "cost" => 1, "tax" => 0.06],
+    ["name" => "Apple", "amount" => 3, "cost" => 1.5, "tax" => 0.06],
+    ["name" => "Wine", "amount" => 2, "cost" => 10.0, "tax" => 0.21],
+
+foreach ($products as $products) {
+    $totalPrice +- $product["amount"] * $product["cost];
+
+    if($product["type"]" === "fruit){
+        $totaltax += $product["amount"] * $product["cost"] * $product["tax"]
+    }
+}
+*/
